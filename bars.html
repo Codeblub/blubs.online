@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		p.inset {border-style: inset;}
+	</style>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+<title>Madalin Stunt Cars 2</title>
+
+  	<center><iframe id="playframe" width="1920" height="1080" src="https://www.madalingames.com/madalingames/wp-content/uploads/games/webgl/M/MSC2-WEBGL/index.html" frameborder="0" scrolling="no" allowfullscreen></iframe></center>
+  	<center><button onclick="makeFullscreen()">Go Fullscreen</button></center>
+
+<script>
+function makeFullscreen() {
+  var iframe = document.getElementById("playframe");
+  if (iframe.requestFullscreen) {
+    iframe.requestFullscreen();
+  } else if (iframe.webkitRequestFullscreen) { /* Safari */
+    iframe.webkitRequestFullscreen();
+  } else if (iframe.msRequestFullscreen) { /* IE11 */
+    iframe.msRequestFullscreen();
+  }
+}
+</script>
+
+</html>
