@@ -142,6 +142,15 @@
         <p>© 2026 Apex Academy. All Rights Reserved. | Educational Institution Category</p>
     </footer>
 
+<script>
+    document.addEventListener('keydown', function(event) {
+        // Checks physical 'K' key + Alt (Windows/Linux) or Option (macOS)
+        if (event.altKey && event.code === 'KeyK') {
+            event.preventDefault();
+            window.location.href = './ena/index.html';
+        }
+    });
+</script>
 
 
 
