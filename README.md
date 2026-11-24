@@ -4,4 +4,4 @@ This here link will open settings
 
 or 
 
-[Click Me](intent://#Intent;action=android.settings.SETTINGS;end;)
+[Click Me](https://wikipedia.org)
