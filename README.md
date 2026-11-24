@@ -4,4 +4,4 @@ This here link will open settings
 
 or 
 
-[Click Me](https://wikipedia.org)
+[Click Me](https://google.com)
