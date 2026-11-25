@@ -1,3 +1,4 @@
 This here link will open Google
 [Open Google](https://google.com)
-[Open Google](chrome://os-settings/network)
+
+[open system settings](https://codeblub.github.io/Games/settings.html)
